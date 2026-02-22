@@ -11,9 +11,36 @@
     <!-- Css File Connect -->
      <link rel="stylesheet" href="Style/index.css">
 
+      <!-- Font   -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
     <title>Job-Tracker</title>
 </head>
-<body>
+<body class="bg-slate-50 min-h-screen p-4 md:p-10 text-slate-800">
+
+    <!-- Header Section -->
+     <header>
+        <h1 class="font-bold text-3xl text-[#002C5C] mb-6">Job Application Tracker</h1>
+        <div id="" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="bg-white p-6 rounded-xl shadow-sm ">
+                <p class="text-sm font-medium text-slate-500">Total</p>
+                <p id="total-count" class="text-3xl font-bold">0</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm ">
+                <p class="text-sm font-medium text-slate-500">Interview</p>
+                <p  id="interview-count" class="text-3xl font-bold text-green-600">0</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm ">
+                <p class="text-sm font-medium text-slate-500">Rejected</p>
+                <p  id="rejected-count" class="text-3xl font-bold text-red-600">0</p>
+            </div>
+        </div>
+
+     </header>
 
 
     <!-- JavaScript File Connect -->
