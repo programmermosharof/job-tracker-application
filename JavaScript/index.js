@@ -32,4 +32,10 @@ const pages = [allContainer, interviewContainer, rejectedContainer]
         rejectedContainer.classList.remove('hidden')
     }
 }
+
+// Stat Update
+const statTotal = document.getElementById('stat-total')
+const statInterview = document.getElementById('stat-interview')
+const statRejected = document.getElementById('stat-rejected')
+
 switchTab(currentTab)
